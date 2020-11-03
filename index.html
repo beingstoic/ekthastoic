@@ -3,13 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quote Generator</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Spectral+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Container containing the whole main content and header -->
+    <div class="container">
+        <!-- Header section containing the navbar and the carousel section -->
+        <header class="header-class">
+            <nav class="navbar">
+                    <a href="#" class="logo"><h2 id="logo">|R|<sup>TM</sup></h2></a>
+                    <div class="logo-seperator"></div>
+                    <img src="./images/name-logoo.png" alt="" class="name-logo">
+                    <a href="#" class="toggler"><i class="fas fa-bars fa-3x"></i></a>
+                
+                <ul class="navbar-options">
+                    <li>.Intro</li>
+                    <li>.Work</li>
+                    <li>.About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <div class="header-carousel"></div>
+        <div class="work-section">
+            <h1 id="selected_work">SELECTED WORK</h1><hr>
+            <div class="worklist">
+                <div class="work" id="work1"></div>
+                <div class="work" id="work2"></div>
+                <div class="work" id="work3"></div>
+                <div class="work" id="work4"></div>
+                <div class="work" id="work5"></div>
+                <div class="work" id="work6"></div>
+            </div>
+        </div>
+        <div class="about-section">
+            <h1 id="about">About</h1><hr>
+            <p class="about-content">Creative MULTI-DISCIPLINARY GRAPHIC DESIGNER with more than decade professional experience in print & digital media. Almost 10-years‘ professional approach and experience in information technology branch, interactive and advertising, communication and marketing. Experienced in various roles in graphic design - team member and independent specialist, participated and worked on many corporate projects, long-term B2B solutions and services located on all over the world.</p>
+            <h2>Worked For: </h2>
+            <div class="company-grid">
+                <div class="comp" id="comp1"></div>
+                <div class="comp" id="comp1"></div>
+            </div>
+        </div>
+        <footer class="bottom">
+            <section id="contact" class="wrapper">
+              <h3>Dominik Kiepuszewski</h3>
+              <p><a href="mailto:dominik.kiepuszewski@gmail.com" target="_blank">
+                dominik.kiepuszewski@gmail.com
+              </a></p>
+             <div class="section-content">
+               <ul class="social responsive-content">
+                <li><a href="https://www.instagram.com/dominik.kiepuszewski/" target="_blank">instagram</a></li>
+                <li><a href="https://www.behance.net/dkiepuszewski/" target="_blank">behance</a></li>
+                <li><a href="https://codepen.io/dominicom/" target="_blank">codepen</a></li>
+                <li><a href="https://www.linkedin.com/in/dkiepuszewski/" target="_blank">linkedin</a></li>
+               </ul>
+             </div>
+             <div class="responsive-content copyright"></div>
+            </section>
+          </footer>
+    </div>
+
     <!-- Script -->
     <script src="script.js"></script>
 </body>
